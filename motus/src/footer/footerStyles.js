@@ -79,6 +79,7 @@ export const HeaderNavListItem = styled.li`
 export const SimpText = styled.p`
     text-align: left;
     color: azure;
+    font-family: "Arial";
     margin: 0;
 `;
 export const FirstLine = styled.div`
