@@ -20,6 +20,8 @@ const Subscription = () => {
                 Подписка
             </Subscribe>
             <Newbie>
+                //TODO фон
+
                 <CategoryLabel>
                     Newbie
                 </CategoryLabel>
@@ -31,6 +33,8 @@ const Subscription = () => {
                 </CategoryPrice>
             </Newbie>
             <Flashed>
+                //TODO фон
+
                 <CategoryLabel>
                     Flashed
                 </CategoryLabel>
@@ -38,15 +42,22 @@ const Subscription = () => {
                     -прошаренный
                 </CategoryTranslate>
                 <CategoryPrice>
-                    200 ₽/мес.
+                    <p>
+                    499 ₽/мес.
+                    </p>
+                   <p> 2499 ₽ на полгода</p>
+                    <p>4999 ₽ на год</p>
                 </CategoryPrice>
             </Flashed>
             <NewbieInfo>
+                //TODO список
                 Аудио-видео хостинг для подкастов,
                 где каждый пользователь сможет записывать кроткие голосовые
                 и делиться ими с аудиторией
             </NewbieInfo>
             <FlashedInfo>
+                //TODO список
+
                 Аудио-видео хостинг для подкастов,
                 где каждый пользователь сможет записывать кроткие голосовые
                 и делиться ими с аудиторией
