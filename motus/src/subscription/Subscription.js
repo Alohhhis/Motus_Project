@@ -20,7 +20,6 @@ const Subscription = () => {
                 Подписка
             </Subscribe>
             <Newbie>
-                //TODO фон
 
                 <CategoryLabel>
                     Newbie
@@ -33,7 +32,6 @@ const Subscription = () => {
                 </CategoryPrice>
             </Newbie>
             <Flashed>
-                //TODO фон
 
                 <CategoryLabel>
                     Flashed
@@ -50,13 +48,11 @@ const Subscription = () => {
                 </CategoryPrice>
             </Flashed>
             <NewbieInfo>
-                //TODO список
                 Аудио-видео хостинг для подкастов,
                 где каждый пользователь сможет записывать кроткие голосовые
                 и делиться ими с аудиторией
             </NewbieInfo>
             <FlashedInfo>
-                //TODO список
 
                 Аудио-видео хостинг для подкастов,
                 где каждый пользователь сможет записывать кроткие голосовые

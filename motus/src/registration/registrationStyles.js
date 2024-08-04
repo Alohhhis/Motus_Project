@@ -11,25 +11,35 @@ export const PhotoBlock = styled.div `
     grid-column: 1/2;
     grid-row: 1/1;
     border-radius: 15px;
-    background: linear-gradient(to right, #4ee413, #ee2d83, #ff00ff);
+    //background: linear-gradient(to right, #4ee413, #ee2d83, #ff00ff);
 `;
 
 export const Photo = styled.img `
+  width: 100%;
+    height: 100%;
+
 `;
 export const LabelBlock =styled.div `
-    grid-row: 1/1;
+height: 87.5%;
     grid-column: 2/4;
     padding: 20px;
+    white-space: nowrap;
     flex-direction: column;
-    background: #f5f5f5;
-    border-radius: 15px;
-
-
+    background-color: #ffffff;
+    border-radius: 40px;
+    font-size: 50px;
+    justify-content: center;
+`;
+export const Pink = styled('div')`
+    background-color: #f02d84;
+    position: relative;
+    grid-column: 2 / 4;
+    text-align: left;
+    grid-row: 1/2;
 `;
 export const Label =styled.p `
     text-align: left;
-    font-size: 24px;
-    font-family: Arial;
+    margin-left: 5%;
     font-weight: bold;
 `;
 export const RedLabel =styled.p `
@@ -37,19 +47,15 @@ export const RedLabel =styled.p `
 `;
 export const FormBlock = styled.div`
     grid-column: 4 / 6;
-    grid-row: 1/1;
+    grid-row: 1/2;
+    height: 100%;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(5, auto);
-    
+    grid-template-rows: repeat(4, auto);
 `;
 
 export const Form = styled.form`
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(5, auto);
-    gap: 10px;
-    align-items: center;
+
 `;
 
 export const UsernameField = styled.input`
